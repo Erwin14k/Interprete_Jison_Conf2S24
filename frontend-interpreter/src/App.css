@@ -1,0 +1,27 @@
+/* Estilo para el título */
+.title {
+    font-size: 2.5rem; /* Tamaño de fuente grande para el título */
+    font-weight: bold;
+    color: #f74949; /* Color blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto para dar profundidad */
+    margin-bottom: 1rem; /* Espaciado inferior */
+    text-align: center;  
+  }
+  
+  /* Estilo para el botón */
+  .button {
+    background-color: #333333; /* Color de fondo oscuro */
+    color: #ffffff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 12px 24px; /* Relleno interno */
+    font-size: 1.2rem; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cursor en forma de mano */
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar efecto de elevación */
+  }
+  
+  .button:hover {
+    background-color: #555555; /* Color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+  }
